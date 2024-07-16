@@ -29,22 +29,32 @@ pos = {
     'Holborn': (5, 3)
 }
 
+# Add nodes to the graph
+for station, position in pos.items():
+    G.nodes[station]['pos'] = position
+
 angle = 20
 # Custom node labels
 node_labels = {
-    'Hyde Park Corner': ('Hyde Park Corner', 0, 0+.7, 0),
+    'Hyde Park Corner': ('Hyde Park Corner', pos['Hyde Park Corner'][0], pos['Hyde Park Corner'][1] +.5, 0),
     'Green Park': ('Green Park', angle, pos['Green Park'][0] + 0.25, pos['Green Park'][1] + 0.25),
     'Piccadilly Circus': ('Piccadilly Circus', angle, pos['Piccadilly Circus'][0] + 0.3, pos['Piccadilly Circus'][1] + 0.25),
-    'Leicester Square': ('Leicester Square', angle, pos['Leicester Square'][0] + 0.6, pos['Leicester Square'][1] -0.1),
+    'Leicester Square': ('Leicester Square', angle, pos['Leicester Square'][0] + 0.3, pos['Leicester Square'][1] -0.1),
     'Covent Garden': ('Covent Garden', 0, pos['Covent Garden'][0] + 0.5, pos['Covent Garden'][1]),
     'Holborn': ('Holborn', 0, pos['Holborn'][0] - 0.4, pos['Holborn'][1])
 }
 
+plt.figure(figsize=(12, 9))
+
 # Draw the graph
-nx.draw(G, pos, with_labels=False, node_size=500, node_color='blue', edge_color='blue', label='Piccadilly Line')
+pos = nx.get_node_attributes(G, 'pos')
+edges = nx.draw_networkx_edges(G, pos, node_size=50,  edge_color='blue', width=2, label='Piccadilly Line')
+
+nodes = nx.draw_networkx_nodes(G, pos, node_size=50, node_color='blue')
 
 for (node, (label, angle, x, y)) in node_labels.items():
     plt.text(x, y, label, fontsize=8, rotation=angle, ha='center', va='center')
+
 
 # Draw the edge labels
 edge_labels = nx.get_edge_attributes(G, 'weight')

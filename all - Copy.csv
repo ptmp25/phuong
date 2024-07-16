@@ -175,8 +175,6 @@ Victoria,Northbound,FINSBURY PARK,SEVEN SISTERS,3.15,4.25,5.34,5.76
 Victoria,Northbound,SEVEN SISTERS,TOTTENHAM HALE,1.05,1.6,1.5,1.5
 Victoria,Northbound,TOTTENHAM HALE,BLACKHORSE ROAD,1.37,1.97,2.5,2.5
 Victoria,Northbound,BLACKHORSE ROAD,WALTHAMSTOW,1.45,2.12,2.04,2.01
-Waterloo & City,Eastbound,WATERLOO,BANK,2.37,4.87,4,4
-Waterloo & City,Westbound,BANK,WATERLOO,2.37,4.2,3.75,3.75
 Jubilee ,Eastbound,STANMORE,CANONS PARK,1.27,1.95,2,2
 Jubilee ,Eastbound,CANONS PARK,QUEENSBURY,1.71,1.93,2.5,2.5
 Jubilee ,Eastbound,QUEENSBURY,KINGSBURY,1.33,1.72,2,2
@@ -331,283 +329,6 @@ Northern ,Northbound,BRENT CROSS,HENDON CENTRAL,1.1,1.83,2,2
 Northern ,Northbound,HENDON CENTRAL,COLINDALE,2.1,2.67,3,3
 Northern ,Northbound,COLINDALE,BURNT OAK,1.31,2.07,2,2
 Northern ,Northbound,BURNT OAK,EDGWARE,1.47,3.37,3.94,3.6
-Piccadilly ,Eastbound,UXBRIDGE,HILLINGDON,2.03,3,3,3
-Piccadilly ,Eastbound,HILLINGDON,ICKENHAM,1.08,1.6,2,2
-Piccadilly ,Eastbound,ICKENHAM,RUISLIP,1.85,2.3,2.5,2.5
-Piccadilly ,Eastbound,RUISLIP,RUISLIP MANOR,0.72,1.3,1.5,1.5
-Piccadilly ,Eastbound,RUISLIP MANOR,EASTCOTE,1.14,1.67,2,2
-Piccadilly ,Eastbound,EASTCOTE,RAYNERS LANE,1.72,2.23,3.35,3.95
-Piccadilly ,Eastbound,RAYNERS LANE,SOUTH HARROW,1.89,2.58,3.74,4.46
-Piccadilly ,Eastbound,SOUTH HARROW,SUDBURY HILL,1.36,1.85,2,2
-Piccadilly ,Eastbound,SUDBURY HILL,SUDBURY TOWN,1.65,2.03,2.5,2.5
-Piccadilly ,Eastbound,SUDBURY TOWN,ALPERTON,1.57,1.95,2.5,2.5
-Piccadilly ,Eastbound,ALPERTON,PARK ROYAL,1.97,2.2,2.5,2.5
-Piccadilly ,Eastbound,PARK ROYAL,NORTH EALING,1.06,1.52,2.5,2.03
-Piccadilly ,Eastbound,NORTH EALING,EALING COMMON,0.94,1.65,2.5,2.5
-Piccadilly ,Eastbound,EALING COMMON,ACTON TOWN,1.03,1.83,3.04,3.45
-Piccadilly ,Eastbound,HEATHROW 123,HATTON CROSS,2.15,2.63,4.43,4.08
-Piccadilly ,Eastbound,HATTON CROSS,HOUNSLOW WEST,2.91,3.25,3.5,3.5
-Piccadilly ,Eastbound,HOUNSLOW WEST,HOUNSLOW CENTRAL,1.46,1.98,2.5,2.5
-Piccadilly ,Eastbound,HOUNSLOW CENTRAL,HOUNSLOW EAST,0.74,1.3,1.5,1.5
-Piccadilly ,Eastbound,HOUNSLOW EAST,OSTERLEY,0.96,1.53,2,2
-Piccadilly ,Eastbound,OSTERLEY,BOSTON MANOR,2.42,2.85,3,3
-Piccadilly ,Eastbound,BOSTON MANOR,NORTHFIELDS,0.99,1.98,4.46,3.38
-Piccadilly ,Eastbound,NORTHFIELDS,SOUTH EALING,0.38,0.98,1.5,1.5
-Piccadilly ,Eastbound,SOUTH EALING,ACTON TOWN,2.2,2.93,4.11,4.28
-Piccadilly ,Eastbound,ACTON TOWN,HAMMERSMITH,4.42,5.65,6,5.53
-Piccadilly ,Eastbound,HAMMERSMITH,BARONS COURT,0.68,1.38,2,2
-Piccadilly ,Eastbound,BARONS COURT,EARLS COURT,1.62,2.55,3,3
-Piccadilly ,Eastbound,EARLS COURT,GLOUCESTER ROAD,0.78,1.37,1.5,1.5
-Piccadilly ,Eastbound,GLOUCESTER ROAD,SOUTH KENSINGTON,0.7,1.28,1.5,1.5
-Piccadilly ,Eastbound,SOUTH KENSINGTON,KNIGHTSBRIDGE,1.22,2.48,3,3
-Piccadilly ,Eastbound,KNIGHTSBRIDGE,HYDE PARK CORNER,0.51,1.1,1.5,1.5
-Piccadilly ,Eastbound,HYDE PARK CORNER,GREEN PARK,1.06,1.73,2,2.02
-Piccadilly ,Eastbound,GREEN PARK,PICCADILLY CIRCUS,0.56,1.1,1.5,1.5
-Piccadilly ,Eastbound,PICCADILLY CIRCUS,LEICESTER SQUARE,0.49,1.17,1.5,1.5
-Piccadilly ,Eastbound,LEICESTER SQUARE,COVENT GARDEN,0.25,0.77,1,1.01
-Piccadilly ,Eastbound,COVENT GARDEN,HOLBORN,0.59,1.4,1.5,1.5
-Piccadilly ,Eastbound,HOLBORN,RUSSELL SQUARE,0.72,1.55,2,2
-Piccadilly ,Eastbound,RUSSELL SQUARE,KINGS CROSS,0.91,1.9,2.47,2.05
-Piccadilly ,Eastbound,KINGS CROSS,CALEDONIAN ROAD,1.96,2.88,3.5,3.5
-Piccadilly ,Eastbound,CALEDONIAN ROAD,HOLLOWAY ROAD,0.59,1.18,1.5,1.5
-Piccadilly ,Eastbound,HOLLOWAY ROAD,ARSENAL,0.74,1.28,1.5,1.5
-Piccadilly ,Eastbound,ARSENAL,FINSBURY PARK,0.69,1.38,1.5,1.5
-Piccadilly ,Eastbound,FINSBURY PARK,MANOR HOUSE,1.04,1.55,2,2
-Piccadilly ,Eastbound,MANOR HOUSE,TURNPIKE LANE,2.31,2.88,3,3
-Piccadilly ,Eastbound,TURNPIKE LANE,WOOD GREEN,0.98,1.57,2,2.02
-Piccadilly ,Eastbound,WOOD GREEN,BOUNDS GREEN,1.52,2.23,2.5,2.5
-Piccadilly ,Eastbound,BOUNDS GREEN,ARNOS GROVE,1.25,2.58,3.62,3.91
-Piccadilly ,Eastbound,ARNOS GROVE,SOUTHGATE,1.94,2.8,2.52,2.51
-Piccadilly ,Eastbound,SOUTHGATE,OAKWOOD,1.86,2.48,3.9,3.51
-Piccadilly ,Eastbound,OAKWOOD,COCKFOSTERS,1.27,2.83,3,3.09
-Piccadilly ,Westbound,COCKFOSTERS,OAKWOOD,1.27,2.27,2.6,2.45
-Piccadilly ,Westbound,OAKWOOD,SOUTHGATE,1.86,2.37,2.5,2.5
-Piccadilly ,Westbound,SOUTHGATE,ARNOS GROVE,1.94,3.28,4.31,4.35
-Piccadilly ,Westbound,ARNOS GROVE,BOUNDS GREEN,1.25,2.25,2,2
-Piccadilly ,Westbound,BOUNDS GREEN,WOOD GREEN,1.52,2.2,2.5,2.57
-Piccadilly ,Westbound,WOOD GREEN,TURNPIKE LANE,0.98,1.52,1.5,1.5
-Piccadilly ,Westbound,TURNPIKE LANE,MANOR HOUSE,2.31,2.87,3,3
-Piccadilly ,Westbound,MANOR HOUSE,FINSBURY PARK,1.04,1.67,2.49,2
-Piccadilly ,Westbound,FINSBURY PARK,ARSENAL,0.69,1.35,1.5,1.5
-Piccadilly ,Westbound,ARSENAL,HOLLOWAY ROAD,0.74,1.3,1.5,1.5
-Piccadilly ,Westbound,HOLLOWAY ROAD,CALEDONIAN ROAD,0.59,1.2,1.5,1.5
-Piccadilly ,Westbound,CALEDONIAN ROAD,KINGS CROSS,1.96,2.78,4,3.52
-Piccadilly ,Westbound,KINGS CROSS,RUSSELL SQUARE,0.91,1.67,2,2
-Piccadilly ,Westbound,RUSSELL SQUARE,HOLBORN,0.72,1.37,1.5,1.5
-Piccadilly ,Westbound,HOLBORN,COVENT GARDEN,0.59,1.53,2,2
-Piccadilly ,Westbound,COVENT GARDEN,LEICESTER SQUARE,0.25,0.77,1,1
-Piccadilly ,Westbound,LEICESTER SQUARE,PICCADILLY CIRCUS,0.49,1.07,1.5,1.5
-Piccadilly ,Westbound,PICCADILLY CIRCUS,GREEN PARK,0.56,1.18,1.5,1.5
-Piccadilly ,Westbound,GREEN PARK,HYDE PARK CORNER,1.06,1.73,2.48,2.02
-Piccadilly ,Westbound,HYDE PARK CORNER,KNIGHTSBRIDGE,0.51,1.12,1.5,1.5
-Piccadilly ,Westbound,KNIGHTSBRIDGE,SOUTH KENSINGTON,1.22,2.23,2.5,2.5
-Piccadilly ,Westbound,SOUTH KENSINGTON,GLOUCESTER ROAD,0.7,1.37,1.5,1.5
-Piccadilly ,Westbound,GLOUCESTER ROAD,EARLS COURT,0.78,1.37,1.5,1.5
-Piccadilly ,Westbound,EARLS COURT,BARONS COURT,1.62,2.68,3,3
-Piccadilly ,Westbound,BARONS COURT,HAMMERSMITH,0.68,1.32,2,2
-Piccadilly ,Westbound,HAMMERSMITH,ACTON TOWN,4.42,4.7,6.67,6.87
-Piccadilly ,Westbound,ACTON TOWN,SOUTH EALING,2.2,2.8,3.08,3.02
-Piccadilly ,Westbound,SOUTH EALING,NORTHFIELDS,0.38,0.95,2.87,1.98
-Piccadilly ,Westbound,NORTHFIELDS,BOSTON MANOR,0.99,1.55,2,2
-Piccadilly ,Westbound,BOSTON MANOR,OSTERLEY,2.42,2.85,3,3
-Piccadilly ,Westbound,OSTERLEY,HOUNSLOW EAST,0.96,1.52,2,2
-Piccadilly ,Westbound,HOUNSLOW EAST,HOUNSLOW CENTRAL,0.74,1.27,1.5,1.5
-Piccadilly ,Westbound,HOUNSLOW CENTRAL,HOUNSLOW WEST,1.46,1.85,2,2
-Piccadilly ,Westbound,HOUNSLOW WEST,HATTON CROSS,2.91,3.3,5.5,5.5
-Piccadilly ,Westbound,HATTON CROSS,HEATHROW TERMINAL FOUR,1.83,2.1,2.5,2.5
-Piccadilly ,Westbound,HEATHROW TERMINAL FOUR,HEATHROW 123,4.31,4.63,5,5
-Piccadilly ,Westbound,ACTON TOWN,EALING COMMON,1.03,1.72,2.02,2.01
-Piccadilly ,Westbound,EALING COMMON,NORTH EALING,0.94,1.88,2,2
-Piccadilly ,Westbound,NORTH EALING,PARK ROYAL,1.06,1.67,2,2
-Piccadilly ,Westbound,PARK ROYAL,ALPERTON,1.97,2.37,2.5,2.5
-Piccadilly ,Westbound,ALPERTON,SUDBURY TOWN,1.57,2.03,2.5,2.5
-Piccadilly ,Westbound,SUDBURY TOWN,SUDBURY HILL,1.65,2.25,2.5,2.5
-Piccadilly ,Westbound,SUDBURY HILL,SOUTH HARROW,1.36,2.05,3.91,2.75
-Piccadilly ,Westbound,SOUTH HARROW,RAYNERS LANE,1.89,2.4,3.43,3.06
-Piccadilly ,Westbound,RAYNERS LANE,EASTCOTE,1.72,2.2,2.5,2.5
-Piccadilly ,Westbound,EASTCOTE,RUISLIP MANOR,1.14,1.73,2,2
-Piccadilly ,Westbound,RUISLIP MANOR,RUISLIP,0.72,1.27,1.95,1.5
-Piccadilly ,Westbound,RUISLIP,ICKENHAM,1.85,2.23,2.5,2.5
-Piccadilly ,Westbound,ICKENHAM,HILLINGDON,1.08,1.58,2,2
-Piccadilly ,Westbound,HILLINGDON,UXBRIDGE,2.03,3.7,3.92,3.5
-Metropolitan,Westbound,ALDGATE,LIVERPOOL STREET,0.61,1.75,2,2.38
-Metropolitan,Westbound,LIVERPOOL STREET,MOORGATE,0.51,1.32,1.5,1.5
-Metropolitan,Westbound,MOORGATE,BARBICAN,0.63,1.38,1.5,1.5
-Metropolitan,Westbound,BARBICAN,FARRINGDON,0.51,1.2,1.95,1.5
-Metropolitan,Westbound,FARRINGDON,KINGS CROSS ST PANCRAS,1.85,3.12,3.5,3.5
-Metropolitan,Westbound,KINGS CROSS ST PANCRAS,EUSTON SQUARE,0.85,1.65,2,2
-Metropolitan,Westbound,EUSTON SQUARE,GREAT PORTLAND STREET,0.61,1.3,1.5,1.5
-Metropolitan,Westbound,GREAT PORTLAND STREET,BAKER STREET (MET),0.92,2.23,4.08,3.82
-Metropolitan,Westbound,BAKER STREET (MET),FINCHLEY ROAD,3.38,5.55,5.55,5.51
-Metropolitan,Westbound,FINCHLEY ROAD,WEMBLEY PARK,7.24,7.05,6.95,7
-Metropolitan,Westbound,WEMBLEY PARK,PRESTON ROAD,1.46,2.12,2.5,2.5
-Metropolitan,Westbound,PRESTON ROAD,NORTHWICK PARK,1.64,2.3,2.5,2.5
-Metropolitan,Westbound,NORTHWICK PARK,HARROW-ON-THE-HILL,1.29,2.32,4.53,3.03
-Metropolitan,Westbound,FINCHLEY ROAD,HARROW-ON-THE-HILL,11.63,11.02,11,11
-Metropolitan,Westbound,HARROW-ON-THE-HILL,WEST HARROW,1.26,2.32,2,2
-Metropolitan,Westbound,WEST HARROW,RAYNERS LANE,1.38,2.05,2.57,2.5
-Metropolitan,Westbound,RAYNERS LANE,EASTCOTE,1.72,2.23,2.52,2.5
-Metropolitan,Westbound,EASTCOTE,RUISLIP MANOR,1.14,1.82,2.02,2
-Metropolitan,Westbound,RUISLIP MANOR,RUISLIP,0.72,1.35,1.52,1.5
-Metropolitan,Westbound,RUISLIP,ICKENHAM,1.85,2.57,2.6,2.5
-Metropolitan,Westbound,ICKENHAM,HILLINGDON,1.08,1.75,2,2
-Metropolitan,Westbound,HILLINGDON,UXBRIDGE,2.03,4.08,4.02,3.54
-Metropolitan,Westbound,HARROW-ON-THE-HILL,NORTH HARROW,2,3.18,3,3
-Metropolitan,Westbound,NORTH HARROW,PINNER,1.48,2,2.5,2.5
-Metropolitan,Westbound,PINNER,NORTHWOOD HILLS,2.08,2.6,2.5,2.5
-Metropolitan,Westbound,NORTHWOOD HILLS,NORTHWOOD,1.61,2.23,2.5,2.5
-Metropolitan,Westbound,NORTHWOOD,MOOR PARK,2.22,2.55,3,3
-Metropolitan,Westbound,HARROW-ON-THE-HILL,MOOR PARK,9.39,9.03,9.5,9.5
-Metropolitan,Westbound,MOOR PARK,CROXLEY,2.94,4.33,4.5,4.5
-Metropolitan,Westbound,CROXLEY,WATFORD,1.9,3.6,3.6,3.5
-Metropolitan,Westbound,MOOR PARK,RICKMANSWORTH,3.49,4.13,5,5
-Metropolitan,Westbound,RICKMANSWORTH,CHORLEYWOOD,3.38,4.03,4,4
-Metropolitan,Westbound,CHORLEYWOOD,CHALFONT & LATIMER,3.43,3.95,4.68,4.5
-Metropolitan,Westbound,CHALFONT & LATIMER,CHESHAM,6.19,9.48,8.64,8.5
-Metropolitan,Westbound,CHALFONT & LATIMER,AMERSHAM,3.27,4.07,4,4
-Metropolitan,Eastbound,AMERSHAM,CHALFONT & LATIMER,3.27,3.65,4,4
-Metropolitan,Eastbound,CHESHAM,CHALFONT & LATIMER,6.19,9.63,9,8.5
-Metropolitan,Eastbound,CHALFONT & LATIMER,CHORLEYWOOD,3.43,3.68,4,4
-Metropolitan,Eastbound,CHORLEYWOOD,RICKMANSWORTH,3.38,4.07,4.5,4.58
-Metropolitan,Eastbound,RICKMANSWORTH,MOOR PARK,3.49,3.78,4.5,4.5
-Metropolitan,Eastbound,WATFORD,CROXLEY,1.9,3.22,3,3
-Metropolitan,Eastbound,CROXLEY,MOOR PARK,2.94,4.42,4,4
-Metropolitan,Eastbound,MOOR PARK,NORTHWOOD,2.22,2.87,3,3
-Metropolitan,Eastbound,NORTHWOOD,NORTHWOOD HILLS,1.61,2.2,2.5,2.5
-Metropolitan,Eastbound,NORTHWOOD HILLS,PINNER,2.08,2.48,2.5,2.5
-Metropolitan,Eastbound,PINNER,NORTH HARROW,1.48,2.08,2.85,2.5
-Metropolitan,Eastbound,NORTH HARROW,HARROW-ON-THE-HILL,2,3.08,4.57,4.49
-Metropolitan,Eastbound,MOOR PARK,HARROW-ON-THE-HILL,9.39,9.62,10,10
-Metropolitan,Eastbound,UXBRIDGE,HILLINGDON,2.03,3,3,3
-Metropolitan,Eastbound,HILLINGDON,ICKENHAM,1.08,1.73,2,2
-Metropolitan,Eastbound,ICKENHAM,RUISLIP,1.85,2.45,2.5,2.5
-Metropolitan,Eastbound,RUISLIP,RUISLIP MANOR,0.72,1.45,1.5,1.5
-Metropolitan,Eastbound,RUISLIP MANOR,EASTCOTE,1.14,1.82,2,2
-Metropolitan,Eastbound,EASTCOTE,RAYNERS LANE,1.72,2.33,3,3
-Metropolitan,Eastbound,RAYNERS LANE,WEST HARROW,1.38,2.08,2,2
-Metropolitan,Eastbound,WEST HARROW,HARROW-ON-THE-HILL,1.26,2.15,3.85,4
-Metropolitan,Eastbound,HARROW-ON-THE-HILL,FINCHLEY ROAD,11.63,10.15,11.5,11.5
-Metropolitan,Eastbound,HARROW-ON-THE-HILL,NORTHWICK PARK,1.29,1.9,2,2
-Metropolitan,Eastbound,NORTHWICK PARK,PRESTON ROAD,1.64,2.05,2.35,2
-Metropolitan,Eastbound,PRESTON ROAD,WEMBLEY PARK,1.46,1.98,2.55,2.53
-Metropolitan,Eastbound,WEMBLEY PARK,FINCHLEY ROAD,7.24,7,7.32,7.52
-Metropolitan,Eastbound,FINCHLEY ROAD,BAKER STREET (METROPOLITAN),3.38,6.13,7.11,6.4
-Metropolitan,Eastbound,BAKER STREET (METROPOLITAN),GREAT PORTLAND STREET,0.92,1.98,2,2
-Metropolitan,Eastbound,GREAT PORTLAND STREET,EUSTON SQUARE,0.61,1.25,1.5,1.5
-Metropolitan,Eastbound,EUSTON SQUARE,KINGS CROSS ST PANCRAS,0.85,1.75,2,2
-Metropolitan,Eastbound,KINGS CROSS ST PANCRAS,FARRINGDON,1.85,2.98,3.5,3.5
-Metropolitan,Eastbound,FARRINGDON,BARBICAN,0.51,1.22,1.5,1.5
-Metropolitan,Eastbound,BARBICAN,MOORGATE,0.63,1.32,1.5,1.5
-Metropolitan,Eastbound,MOORGATE,LIVERPOOL STREET,0.51,1.18,1.99,1.53
-Metropolitan,Eastbound,LIVERPOOL STREET,ALDGATE,0.61,2.18,2.01,2.2
-H & C,Eastbound,HAMMERSMITH (H&C),GOLDHAWK ROAD,0.82,2.05,2,2
-H & C,Eastbound,GOLDHAWK ROAD,SHEPHERDS BUSH,0.51,1.15,1.5,1.5
-H & C,Eastbound,SHEPHERDS BUSH,LATIMER ROAD,1.01,1.63,2,2
-H & C,Eastbound,LATIMER ROAD,LADBROKE GROVE,0.66,1.37,1.5,1.5
-H & C,Eastbound,LADBROKE GROVE,WESTBOURNE PARK,0.79,1.48,1.5,1.5
-H & C,Eastbound,WESTBOURNE PARK,ROYAL OAK,0.98,1.78,2,2
-H & C,Eastbound,ROYAL OAK,PADDINGTON (H&C),0.64,1.52,2,2
-H & C,Eastbound,PADDINGTON (H&C),EDGWARE ROAD,0.93,2.33,3.71,3.72
-H & C,Eastbound,EDGWARE ROAD,BAKER STREET ,0.72,1.47,2.84,2.5
-H & C,Eastbound,BAKER STREET ,GREAT PORTLAND STREET,0.92,1.9,2,2
-H & C,Eastbound,GREAT PORTLAND STREET,EUSTON SQUARE,0.61,1.25,1.5,1.5
-H & C,Eastbound,EUSTON SQUARE,KINGS CROSS ST PANCRAS,0.85,1.75,2,2
-H & C,Eastbound,KINGS CROSS ST PANCRAS,FARRINGDON,1.85,2.98,3.5,3.5
-H & C,Eastbound,FARRINGDON,BARBICAN,0.51,1.22,1.5,1.5
-H & C,Eastbound,BARBICAN,MOORGATE,0.64,1.32,1.53,1.5
-H & C,Eastbound,MOORGATE,LIVERPOOL STREET,0.51,1.18,1.95,1.51
-H & C,Eastbound,LIVERPOOL STREET,ALDGATE EAST,0.92,1.93,3.14,2.78
-H & C,Eastbound,ALDGATE EAST,WHITECHAPEL,0.82,2.17,2.5,2.01
-H & C,Eastbound,WHITECHAPEL,STEPNEY GREEN,1,2.05,2,2
-H & C,Eastbound,STEPNEY GREEN,MILE END,1.05,1.73,2,2
-H & C,Eastbound,MILE END,BOW ROAD,0.55,1.27,1.5,1.5
-H & C,Eastbound,BOW ROAD,BROMLEY BY BOW,1.01,2.12,2,2
-H & C,Eastbound,BROMLEY BY BOW,WEST HAM,1.37,2,2,2
-H & C,Eastbound,WEST HAM,PLAISTOW,0.76,1.43,2.26,2.04
-H & C,Eastbound,PLAISTOW,UPTON PARK,1.29,1.97,2,2
-H & C,Eastbound,UPTON PARK,EAST HAM,1.4,2.02,2,2
-H & C,Eastbound,EAST HAM,BARKING,2.29,3.78,3.6,3.49
-H & C,Westbound,BARKING,EAST HAM,2.29,2.87,3,3
-H & C,Westbound,EAST HAM,UPTON PARK,1.4,2,2.5,2.5
-H & C,Westbound,UPTON PARK,PLAISTOW,1.29,1.93,2,2
-H & C,Westbound,PLAISTOW,WEST HAM,0.76,1.5,1.5,1.5
-H & C,Westbound,WEST HAM,BROMLEY BY BOW,1.37,2.12,2,2
-H & C,Westbound,BROMLEY BY BOW,BOW ROAD,1.01,2.23,2.5,2.5
-H & C,Westbound,BOW ROAD,MILE END,0.55,1.27,1.5,1.5
-H & C,Westbound,MILE END,STEPNEY GREEN,1.05,1.72,2,2
-H & C,Westbound,STEPNEY GREEN,WHITECHAPEL,1,2.63,3.48,2.56
-H & C,Westbound,WHITECHAPEL,ALDGATE EAST,0.82,2.18,2.45,2.06
-H & C,Westbound,ALDGATE EAST,LIVERPOOL STREET,0.92,2.12,3.02,3.88
-H & C,Westbound,LIVERPOOL STREET,MOORGATE,0.51,1.32,1.5,1.5
-H & C,Westbound,MOORGATE,BARBICAN,0.64,1.38,1.5,1.5
-H & C,Westbound,BARBICAN,FARRINGDON,0.51,1.2,1.92,1.51
-H & C,Westbound,FARRINGDON,KINGS CROSS ST PANCRAS,1.85,3.12,3.5,3.5
-H & C,Westbound,KINGS CROSS ST PANCRAS,EUSTON SQUARE,0.85,1.65,2,2
-H & C,Westbound,EUSTON SQUARE,GREAT PORTLAND STREET,0.61,1.3,1.5,1.5
-H & C,Westbound,GREAT PORTLAND STREET,BAKER STREET ,0.92,1.57,2.9,2.07
-H & C,Westbound,BAKER STREET ,EDGWARE ROAD,0.72,1.88,3.6,3.08
-H & C,Westbound,EDGWARE ROAD,PADDINGTON (H&C),0.93,2.08,2,2
-H & C,Westbound,PADDINGTON (H&C),ROYAL OAK,0.64,1.33,1.5,1.5
-H & C,Westbound,ROYAL OAK,WESTBOURNE PARK,0.98,1.72,2,2
-H & C,Westbound,WESTBOURNE PARK,LADBROKE GROVE,0.79,1.48,1.5,1.5
-H & C,Westbound,LADBROKE GROVE,LATIMER ROAD,0.66,1.28,1.5,1.5
-H & C,Westbound,LATIMER ROAD,SHEPHERDS BUSH,1.01,1.7,2,2
-H & C,Westbound,SHEPHERDS BUSH,GOLDHAWK ROAD,0.51,1.15,1,1
-H & C,Westbound,GOLDHAWK ROAD,HAMMERSMITH (H&C),0.82,2.43,3.07,3.03
-Circle ,Inner,EDGWARE ROAD,PADDINGTON (CIRCLE),0.82,1.85,2,2
-Circle ,Inner,PADDINGTON (CIRCLE),BAYSWATER,0.98,1.65,2,2
-Circle ,Inner,BAYSWATER,NOTTING HILL GATE,0.79,1.47,2,2
-Circle ,Inner,NOTTING HILL GATE,HIGH STREET KENSINGTON,0.93,1.58,3.57,3.36
-Circle ,Inner,HIGH STREET KENSINGTON,GLOUCESTER ROAD,0.93,1.8,2.66,2.9
-Circle ,Inner,GLOUCESTER ROAD,SOUTH KENSINGTON,0.74,1.43,1.5,1.5
-Circle ,Inner,SOUTH KENSINGTON,SLOANE SQUARE,1.22,1.98,2,2
-Circle ,Inner,SLOANE SQUARE,VICTORIA,1.05,1.8,2,2
-Circle ,Inner,VICTORIA,ST JAMES PARK,0.72,1.42,1.5,1.5
-Circle ,Inner,ST JAMES PARK,WESTMINSTER,0.76,1.5,2,2
-Circle ,Inner,WESTMINSTER,EMBANKMENT,0.69,1.37,2,2
-Circle ,Inner,EMBANKMENT,TEMPLE,0.71,1.37,2,2
-Circle ,Inner,TEMPLE,BLACKFRIARS,0.76,1.4,2,2
-Circle ,Inner,BLACKFRIARS,MANSION HOUSE,0.61,1.52,1.95,1.52
-Circle ,Inner,MANSION HOUSE,CANNON STREET,0.31,0.98,1,1
-Circle ,Inner,CANNON STREET,MONUMENT,0.34,0.97,1.5,1.5
-Circle ,Inner,MONUMENT,TOWER HILL,0.68,1.8,2,2.07
-Circle ,Inner,TOWER HILL,ALDGATE,0.5,1.3,4.05,3.18
-Circle ,Inner,ALDGATE,LIVERPOOL STREET,0.61,1.75,2,2.42
-Circle ,Inner,LIVERPOOL STREET,MOORGATE,0.51,1.32,1.5,1.5
-Circle ,Inner,MOORGATE,BARBICAN,0.64,1.38,1.5,1.5
-Circle ,Inner,BARBICAN,FARRINGDON,0.51,1.2,1.92,1.51
-Circle ,Inner,FARRINGDON,KINGS CROSS ST PANCRAS,1.85,3.12,3.5,3.5
-Circle ,Inner,KINGS CROSS ST PANCRAS,EUSTON SQUARE,0.85,1.65,2,2
-Circle ,Inner,EUSTON SQUARE,GREAT PORTLAND STREET,0.61,1.3,1.5,1.5
-Circle ,Inner,GREAT PORTLAND STREET,BAKER STREET (CIRCLE),0.92,1.57,2.9,2.07
-Circle ,Inner,BAKER STREET ,EDGWARE ROAD,0.72,1.88,3.6,3.08
-Circle ,Outer,EDGWARE ROAD,BAKER STREET ,0.72,1.47,2.84,2.5
-Circle ,Outer,BAKER STREET ,GREAT PORTLAND STREET,0.92,1.9,2,2
-Circle ,Outer,GREAT PORTLAND STREET,EUSTON SQUARE,0.61,1.25,1.5,1.5
-Circle ,Outer,EUSTON SQUARE,KINGS CROSS ST PANCRAS,0.85,1.75,2,2
-Circle ,Outer,KINGS CROSS ST PANCRAS,FARRINGDON,1.85,2.98,3.5,3.5
-Circle ,Outer,FARRINGDON,BARBICAN,0.51,1.22,1.5,1.5
-Circle ,Outer,BARBICAN,MOORGATE,0.64,1.32,1.53,1.5
-Circle ,Outer,MOORGATE,LIVERPOOL STREET,0.51,1.18,1.95,1.51
-Circle ,Outer,LIVERPOOL STREET,ALDGATE,0.61,2.18,2.55,2.51
-Circle ,Outer,ALDGATE,TOWER HILL,0.5,1.37,2.02,2.1
-Circle ,Outer,TOWER HILL,MONUMENT,0.68,1.48,1.5,1.5
-Circle ,Outer,MONUMENT,CANNON STREET,0.34,0.88,1,1
-Circle ,Outer,CANNON STREET,MANSION HOUSE,0.31,0.93,1.5,1.5
-Circle ,Outer,MANSION HOUSE,BLACKFRIARS,0.61,1.22,1.52,1.5
-Circle ,Outer,BLACKFRIARS,TEMPLE,0.76,1.37,1.5,1.5
-Circle ,Outer,TEMPLE,EMBANKMENT,0.71,1.43,2,2.01
-Circle ,Outer,EMBANKMENT,WESTMINSTER,0.69,1.4,1.5,1.5
-Circle ,Outer,WESTMINSTER,ST JAMES PARK,0.76,1.52,1.5,1.5
-Circle ,Outer,ST JAMES PARK,VICTORIA,0.72,1.33,2,2
-Circle ,Outer,VICTORIA,SLOANE SQUARE,1.05,1.75,2,2
-Circle ,Outer,SLOANE SQUARE,SOUTH KENSINGTON,1.22,2,2.98,2.5
-Circle ,Outer,SOUTH KENSINGTON,GLOUCESTER ROAD,0.74,1.48,2.02,2.54
-Circle ,Outer,GLOUCESTER ROAD,HIGH STREET KENSINGTON,0.93,2.23,3.98,2.92
-Circle ,Outer,HIGH STREET KENSINGTON,NOTTING HILL GATE,0.93,1.68,2,2
-Circle ,Outer,NOTTING HILL GATE,BAYSWATER,0.79,1.77,2,2
-Circle ,Outer,BAYSWATER,PADDINGTON (CIRCLE),0.98,1.63,2.45,2.01
-Circle ,Outer,PADDINGTON (CIRCLE),EDGWARE ROAD,0.82,2.15,3.71,3.72
 District,Westbound,UPMINSTER,UPMINSTER BRIDGE,1.24,2.08,2,2.03
 District,Westbound,UPMINSTER BRIDGE,HORNCHURCH,1.26,1.78,2,2
 District,Westbound,HORNCHURCH,ELM PARK,1.5,1.98,2.5,2.5
@@ -726,22 +447,301 @@ District,Eastbound,DAGENHAM EAST,ELM PARK,2.37,2.85,3,3
 District,Eastbound,ELM PARK,HORNCHURCH,1.5,2.05,2.5,2.5
 District,Eastbound,HORNCHURCH,UPMINSTER BRIDGE,1.26,1.77,2,2
 District,Eastbound,UPMINSTER BRIDGE,UPMINSTER,1.24,2.32,2.03,2.01
-East London ,Northbound,NEW CROSS,SURREY QUAYS,2.27,3.62,4,4
-East London ,Northbound,NEW CROSS GATE,SURREY QUAYS,2.04,2.8,3.5,3.5
-East London ,Northbound,SURREY QUAYS,CANADA WATER,0.55,1.47,1.5,1.5
-East London ,Northbound,CANADA WATER,ROTHERHITHE,0.32,0.85,1,1
-East London ,Northbound,ROTHERHITHE,WAPPING,0.51,1.17,1.5,1.5
-East London ,Northbound,WAPPING,SHADWELL,0.77,1.43,1.5,1.5
-East London ,Northbound,SHADWELL,WHITECHAPEL,0.98,1.98,2.5,2.17
-East London ,Northbound,WHITECHAPEL,SHOREDITCH,0.72,1.85,2,2
-East London ,Southbound,SHOREDITCH,WHITECHAPEL,0.72,1.6,2,2
-East London ,Southbound,WHITECHAPEL,SHADWELL,0.98,1.82,2,2
-East London ,Southbound,SHADWELL,WAPPING,0.77,1.3,1.5,1.5
-East London ,Southbound,WAPPING,ROTHERHITHE,0.51,1.17,1.5,1.5
-East London ,Southbound,ROTHERHITHE,CANADA WATER,0.32,0.93,1,1
-East London ,Southbound,CANADA WATER,SURREY QUAYS,0.55,1.7,2,2.09
-East London ,Southbound,SURREY QUAYS,NEW CROSS,2.27,4.27,4.5,4.5
-East London ,Southbound,SURREY QUAYS,NEW CROSS GATE,2.04,3.88,3.5,3.5
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
 ,,,,,,,
 ,,,,,,,
 DLR,Eastbound,Bank,Shadwell,2.28,,,
