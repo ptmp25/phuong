@@ -131,7 +131,8 @@ pos = get_node_positions(g, station_coordinates)
 total_length, average_distance, std_distance = calculate_statistics(df)
 
 # List of stations
-stations = list(station_coordinates.keys())
+stations = list(g.nodes())
+# print(g.nodes())
 
 # Tkinter GUI
 root = tk.Tk()
