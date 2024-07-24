@@ -66,16 +66,15 @@ for i, line in enumerate(lines):
     nx.draw_networkx_edges(g, pos, edgelist=edges, edge_color=colors[line], width=2, label=f'{line} Line')
 
 # Draw the nodes 
-nx.draw_networkx_nodes(g, pos, node_size=10, node_color='black')
+nx.draw_networkx_nodes(g, pos, node_size=50, node_color='black')
 # Draw the node labels 
 for node, (x, y) in pos.items():
-    plt.text(x, y, node, fontsize=5, ha='left', va='bottom')
+    plt.text(x, y, node, fontsize=5, ha='right', va='top', fontweight='bold')
 # Draw the edge labels    
 edge_labels = {(row['Station from (A)'], row['Station to (B)']): row['Distance (Kms)'] for _, row in df.iterrows()}
-nx.draw_networkx_edge_labels(g, pos, edge_labels=edge_labels, font_size=5, font_color='black')
+nx.draw_networkx_edge_labels(g, pos, edge_labels=edge_labels, font_size=8, font_color='black')
 
 plt.legend(loc='lower right', fontsize=10)
 plt.title('London Tube Map')
 
-plt.savefig('before.png')
 plt.show()

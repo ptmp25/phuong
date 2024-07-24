@@ -329,6 +329,105 @@ Northern ,Northbound,BRENT CROSS,HENDON CENTRAL,1.1,1.83,2,2
 Northern ,Northbound,HENDON CENTRAL,COLINDALE,2.1,2.67,3,3
 Northern ,Northbound,COLINDALE,BURNT OAK,1.31,2.07,2,2
 Northern ,Northbound,BURNT OAK,EDGWARE,1.47,3.37,3.94,3.6
+Piccadilly ,Eastbound,UXBRIDGE,HILLINGDON,2.03,3,3,3
+Piccadilly ,Eastbound,HILLINGDON,ICKENHAM,1.08,1.6,2,2
+Piccadilly ,Eastbound,ICKENHAM,RUISLIP,1.85,2.3,2.5,2.5
+Piccadilly ,Eastbound,RUISLIP,RUISLIP MANOR,0.72,1.3,1.5,1.5
+Piccadilly ,Eastbound,RUISLIP MANOR,EASTCOTE,1.14,1.67,2,2
+Piccadilly ,Eastbound,EASTCOTE,RAYNERS LANE,1.72,2.23,3.35,3.95
+Piccadilly ,Eastbound,RAYNERS LANE,SOUTH HARROW,1.89,2.58,3.74,4.46
+Piccadilly ,Eastbound,SOUTH HARROW,SUDBURY HILL,1.36,1.85,2,2
+Piccadilly ,Eastbound,SUDBURY HILL,SUDBURY TOWN,1.65,2.03,2.5,2.5
+Piccadilly ,Eastbound,SUDBURY TOWN,ALPERTON,1.57,1.95,2.5,2.5
+Piccadilly ,Eastbound,ALPERTON,PARK ROYAL,1.97,2.2,2.5,2.5
+Piccadilly ,Eastbound,PARK ROYAL,NORTH EALING,1.06,1.52,2.5,2.03
+Piccadilly ,Eastbound,NORTH EALING,EALING COMMON,0.94,1.65,2.5,2.5
+Piccadilly ,Eastbound,EALING COMMON,ACTON TOWN,1.03,1.83,3.04,3.45
+Piccadilly ,Eastbound,HEATHROW 123,HATTON CROSS,2.15,2.63,4.43,4.08
+Piccadilly ,Eastbound,HATTON CROSS,HOUNSLOW WEST,2.91,3.25,3.5,3.5
+Piccadilly ,Eastbound,HOUNSLOW WEST,HOUNSLOW CENTRAL,1.46,1.98,2.5,2.5
+Piccadilly ,Eastbound,HOUNSLOW CENTRAL,HOUNSLOW EAST,0.74,1.3,1.5,1.5
+Piccadilly ,Eastbound,HOUNSLOW EAST,OSTERLEY,0.96,1.53,2,2
+Piccadilly ,Eastbound,OSTERLEY,BOSTON MANOR,2.42,2.85,3,3
+Piccadilly ,Eastbound,BOSTON MANOR,NORTHFIELDS,0.99,1.98,4.46,3.38
+Piccadilly ,Eastbound,NORTHFIELDS,SOUTH EALING,0.38,0.98,1.5,1.5
+Piccadilly ,Eastbound,SOUTH EALING,ACTON TOWN,2.2,2.93,4.11,4.28
+Piccadilly ,Eastbound,ACTON TOWN,HAMMERSMITH,4.42,5.65,6,5.53
+Piccadilly ,Eastbound,HAMMERSMITH,BARONS COURT,0.68,1.38,2,2
+Piccadilly ,Eastbound,BARONS COURT,EARLS COURT,1.62,2.55,3,3
+Piccadilly ,Eastbound,EARLS COURT,GLOUCESTER ROAD,0.78,1.37,1.5,1.5
+Piccadilly ,Eastbound,GLOUCESTER ROAD,SOUTH KENSINGTON,0.7,1.28,1.5,1.5
+Piccadilly ,Eastbound,SOUTH KENSINGTON,KNIGHTSBRIDGE,1.22,2.48,3,3
+Piccadilly ,Eastbound,KNIGHTSBRIDGE,HYDE PARK CORNER,0.51,1.1,1.5,1.5
+Piccadilly ,Eastbound,HYDE PARK CORNER,GREEN PARK,1.06,1.73,2,2.02
+Piccadilly ,Eastbound,GREEN PARK,PICCADILLY CIRCUS,0.56,1.1,1.5,1.5
+Piccadilly ,Eastbound,PICCADILLY CIRCUS,LEICESTER SQUARE,0.49,1.17,1.5,1.5
+Piccadilly ,Eastbound,LEICESTER SQUARE,COVENT GARDEN,0.25,0.77,1,1.01
+Piccadilly ,Eastbound,COVENT GARDEN,HOLBORN,0.59,1.4,1.5,1.5
+Piccadilly ,Eastbound,HOLBORN,RUSSELL SQUARE,0.72,1.55,2,2
+Piccadilly ,Eastbound,RUSSELL SQUARE,KINGS CROSS,0.91,1.9,2.47,2.05
+Piccadilly ,Eastbound,KINGS CROSS,CALEDONIAN ROAD,1.96,2.88,3.5,3.5
+Piccadilly ,Eastbound,CALEDONIAN ROAD,HOLLOWAY ROAD,0.59,1.18,1.5,1.5
+Piccadilly ,Eastbound,HOLLOWAY ROAD,ARSENAL,0.74,1.28,1.5,1.5
+Piccadilly ,Eastbound,ARSENAL,FINSBURY PARK,0.69,1.38,1.5,1.5
+Piccadilly ,Eastbound,FINSBURY PARK,MANOR HOUSE,1.04,1.55,2,2
+Piccadilly ,Eastbound,MANOR HOUSE,TURNPIKE LANE,2.31,2.88,3,3
+Piccadilly ,Eastbound,TURNPIKE LANE,WOOD GREEN,0.98,1.57,2,2.02
+Piccadilly ,Eastbound,WOOD GREEN,BOUNDS GREEN,1.52,2.23,2.5,2.5
+Piccadilly ,Eastbound,BOUNDS GREEN,ARNOS GROVE,1.25,2.58,3.62,3.91
+Piccadilly ,Eastbound,ARNOS GROVE,SOUTHGATE,1.94,2.8,2.52,2.51
+Piccadilly ,Eastbound,SOUTHGATE,OAKWOOD,1.86,2.48,3.9,3.51
+Piccadilly ,Eastbound,OAKWOOD,COCKFOSTERS,1.27,2.83,3,3.09
+Piccadilly ,Westbound,COCKFOSTERS,OAKWOOD,1.27,2.27,2.6,2.45
+Piccadilly ,Westbound,OAKWOOD,SOUTHGATE,1.86,2.37,2.5,2.5
+Piccadilly ,Westbound,SOUTHGATE,ARNOS GROVE,1.94,3.28,4.31,4.35
+Piccadilly ,Westbound,ARNOS GROVE,BOUNDS GREEN,1.25,2.25,2,2
+Piccadilly ,Westbound,BOUNDS GREEN,WOOD GREEN,1.52,2.2,2.5,2.57
+Piccadilly ,Westbound,WOOD GREEN,TURNPIKE LANE,0.98,1.52,1.5,1.5
+Piccadilly ,Westbound,TURNPIKE LANE,MANOR HOUSE,2.31,2.87,3,3
+Piccadilly ,Westbound,MANOR HOUSE,FINSBURY PARK,1.04,1.67,2.49,2
+Piccadilly ,Westbound,FINSBURY PARK,ARSENAL,0.69,1.35,1.5,1.5
+Piccadilly ,Westbound,ARSENAL,HOLLOWAY ROAD,0.74,1.3,1.5,1.5
+Piccadilly ,Westbound,HOLLOWAY ROAD,CALEDONIAN ROAD,0.59,1.2,1.5,1.5
+Piccadilly ,Westbound,CALEDONIAN ROAD,KINGS CROSS,1.96,2.78,4,3.52
+Piccadilly ,Westbound,KINGS CROSS,RUSSELL SQUARE,0.91,1.67,2,2
+Piccadilly ,Westbound,RUSSELL SQUARE,HOLBORN,0.72,1.37,1.5,1.5
+Piccadilly ,Westbound,HOLBORN,COVENT GARDEN,0.59,1.53,2,2
+Piccadilly ,Westbound,COVENT GARDEN,LEICESTER SQUARE,0.25,0.77,1,1
+Piccadilly ,Westbound,LEICESTER SQUARE,PICCADILLY CIRCUS,0.49,1.07,1.5,1.5
+Piccadilly ,Westbound,PICCADILLY CIRCUS,GREEN PARK,0.56,1.18,1.5,1.5
+Piccadilly ,Westbound,GREEN PARK,HYDE PARK CORNER,1.06,1.73,2.48,2.02
+Piccadilly ,Westbound,HYDE PARK CORNER,KNIGHTSBRIDGE,0.51,1.12,1.5,1.5
+Piccadilly ,Westbound,KNIGHTSBRIDGE,SOUTH KENSINGTON,1.22,2.23,2.5,2.5
+Piccadilly ,Westbound,SOUTH KENSINGTON,GLOUCESTER ROAD,0.7,1.37,1.5,1.5
+Piccadilly ,Westbound,GLOUCESTER ROAD,EARLS COURT,0.78,1.37,1.5,1.5
+Piccadilly ,Westbound,EARLS COURT,BARONS COURT,1.62,2.68,3,3
+Piccadilly ,Westbound,BARONS COURT,HAMMERSMITH,0.68,1.32,2,2
+Piccadilly ,Westbound,HAMMERSMITH,ACTON TOWN,4.42,4.7,6.67,6.87
+Piccadilly ,Westbound,ACTON TOWN,SOUTH EALING,2.2,2.8,3.08,3.02
+Piccadilly ,Westbound,SOUTH EALING,NORTHFIELDS,0.38,0.95,2.87,1.98
+Piccadilly ,Westbound,NORTHFIELDS,BOSTON MANOR,0.99,1.55,2,2
+Piccadilly ,Westbound,BOSTON MANOR,OSTERLEY,2.42,2.85,3,3
+Piccadilly ,Westbound,OSTERLEY,HOUNSLOW EAST,0.96,1.52,2,2
+Piccadilly ,Westbound,HOUNSLOW EAST,HOUNSLOW CENTRAL,0.74,1.27,1.5,1.5
+Piccadilly ,Westbound,HOUNSLOW CENTRAL,HOUNSLOW WEST,1.46,1.85,2,2
+Piccadilly ,Westbound,HOUNSLOW WEST,HATTON CROSS,2.91,3.3,5.5,5.5
+Piccadilly ,Westbound,HATTON CROSS,HEATHROW TERMINAL FOUR,1.83,2.1,2.5,2.5
+Piccadilly ,Westbound,HEATHROW TERMINAL FOUR,HEATHROW 123,4.31,4.63,5,5
+Piccadilly ,Westbound,ACTON TOWN,EALING COMMON,1.03,1.72,2.02,2.01
+Piccadilly ,Westbound,EALING COMMON,NORTH EALING,0.94,1.88,2,2
+Piccadilly ,Westbound,NORTH EALING,PARK ROYAL,1.06,1.67,2,2
+Piccadilly ,Westbound,PARK ROYAL,ALPERTON,1.97,2.37,2.5,2.5
+Piccadilly ,Westbound,ALPERTON,SUDBURY TOWN,1.57,2.03,2.5,2.5
+Piccadilly ,Westbound,SUDBURY TOWN,SUDBURY HILL,1.65,2.25,2.5,2.5
+Piccadilly ,Westbound,SUDBURY HILL,SOUTH HARROW,1.36,2.05,3.91,2.75
+Piccadilly ,Westbound,SOUTH HARROW,RAYNERS LANE,1.89,2.4,3.43,3.06
+Piccadilly ,Westbound,RAYNERS LANE,EASTCOTE,1.72,2.2,2.5,2.5
+Piccadilly ,Westbound,EASTCOTE,RUISLIP MANOR,1.14,1.73,2,2
+Piccadilly ,Westbound,RUISLIP MANOR,RUISLIP,0.72,1.27,1.95,1.5
+Piccadilly ,Westbound,RUISLIP,ICKENHAM,1.85,2.23,2.5,2.5
+Piccadilly ,Westbound,ICKENHAM,HILLINGDON,1.08,1.58,2,2
+Piccadilly ,Westbound,HILLINGDON,UXBRIDGE,2.03,3.7,3.92,3.5
 District,Westbound,UPMINSTER,UPMINSTER BRIDGE,1.24,2.08,2,2.03
 District,Westbound,UPMINSTER BRIDGE,HORNCHURCH,1.26,1.78,2,2
 District,Westbound,HORNCHURCH,ELM PARK,1.5,1.98,2.5,2.5
@@ -447,395 +546,3 @@ District,Eastbound,DAGENHAM EAST,ELM PARK,2.37,2.85,3,3
 District,Eastbound,ELM PARK,HORNCHURCH,1.5,2.05,2.5,2.5
 District,Eastbound,HORNCHURCH,UPMINSTER BRIDGE,1.26,1.77,2,2
 District,Eastbound,UPMINSTER BRIDGE,UPMINSTER,1.24,2.32,2.03,2.01
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-DLR,Eastbound,Bank,Shadwell,2.28,,,
-DLR,Eastbound,Tower Gateway,Shadwell,1.01,,,
-DLR,Eastbound,Shadell,Limehouse,1.03,,,
-DLR,Eastbound,Limehouse,Westferry,0.86,,,
-DLR,Eastbound,Westferry,Poplar,0.64,,,
-DLR,Eastbound,Westferry,Canary Wharf,0.71,,,
-DLR,Eastbound,Poplar,Blackwall,0.59,,,
-DLR,Eastbound,Blackwall,East India,0.3,,,
-DLR,Eastbound,East India,Canning Town,1,,,
-DLR,Eastbound,Canning Town,Royal Victoria,0.88,,,
-DLR,Eastbound,Royal Victoria,Custom House,0.48,,,
-DLR,Eastbound,Custom House,Prince Regent,0.43,,,
-DLR,Eastbound,Prince Regent,Royal Albert,0.85,,,
-DLR,Eastbound,Royal Albert,Beckton Park,0.57,,,
-DLR,Eastbound,Beckton Park,Cyprus,0.54,,,
-DLR,Eastbound,Cyprus,Gallions Reach,0.65,,,
-DLR,Eastbound,Gallions Reach,Beckton,1.08,,,
-DLR,Eastbound,Canning Town,West Silvertown,1.57,,,
-DLR,Eastbound,West Silvertown,Pontoon Dock,0.68,,,
-DLR,Eastbound,Pontoon Dock,London City Airport,1.02,,,
-DLR,Eastbound,London City Airport,King George V,0.95,,,
-DLR,Eastbound,King George V,Woolwich Arsenal,2.36,,,
-,,,,,,,
-DLR,Westbound,Woolwich Arsenal,King George V,2.3,,,
-DLR,Westbound,King George V,London City Airport,0.95,,,
-DLR,Westbound,London City Airport,Pontoon Dock,1.01,,,
-DLR,Westbound,Pontoon Dock,West Silvertown,0.69,,,
-DLR,Westbound,West Silvertown,Canning Town,1.58,,,
-DLR,Westbound,Beckton,Gallions Reach,1.09,,,
-DLR,Westbound,Gallions Reach,Cyprus,0.66,,,
-DLR,Westbound,Cyprus,Beckton Park,0.54,,,
-DLR,Westbound,Beckton Park,Royal Albert,0.56,,,
-DLR,Westbound,Royal Albert,Prince Regent,0.85,,,
-DLR,Westbound,Prince Regent,Custom House,0.41,,,
-DLR,Westbound,Custom House,Royal Victoria,0.49,,,
-DLR,Westbound,Royal Victoria,Canning Town,0.89,,,
-DLR,Westbound,Canning Town,East India,0.99,,,
-DLR,Westbound,East India,Blackwall,0.3,,,
-DLR,Westbound,Blackwall,Poplar,0.59,,,
-DLR,Westbound,West India Quay,Westferry,0.49,,,
-DLR,Westbound,Poplar,Westferry,0.65,,,
-DLR,Westbound,Westferry,Limehouse,0.86,,,
-DLR,Westbound,Limehouse,Shadell,1.03,,,
-DLR,Westbound,Shadwell,Tower Gateway,1.15,,,
-DLR,Westbound,Shadwell,Bank,2.26,,,
-,,,,,,,
-DLR,Northbound,Lewisham,Elverson Road,0.33,,,
-DLR,Northbound,Elverson Road,Deptford Bridge,0.72,,,
-DLR,Northbound,Deptford Bridge,Greenwich,0.66,,,
-DLR,Northbound,Greenwich,Cutty Sark,0.59,,,
-DLR,Northbound,Cutty Sark,Island Gardens,0.68,,,
-DLR,Northbound,Island Gardens,Mudchute,0.38,,,
-DLR,Northbound,Mudchute,Crossharbour,0.39,,,
-DLR,Northbound,Crossharbour,South Quay,0.5,,,
-DLR,Northbound,South Quay,Heron Quays,0.5,,,
-DLR,Northbound,Heron Quays,Canary Wharf,0.15,,,
-DLR,Northbound,Canary Wharf,West India Quay,0.09,,,
-DLR,Northbound,West India Quay,Poplar,0.24,,,
-DLR,Northbound,Poplar,All Saints,0.6,,,
-DLR,Northbound,All Saints,Langdon Park,0.44,,,
-DLR,Northbound,Langdon Park,Devons Road,0.72,,,
-DLR,Northbound,Devons Road,Bow Church,0.53,,,
-DLR,Northbound,Bow Church,Pudding Mill Lane,0.94,,,
-DLR,Northbound,Pudding Mill Lane,Stratford,0.89,,,
-DLR,Northbound,Canning Town,Star Lane,0.7,,,
-DLR,Northbound,Star Lane,West Ham,0.69,,,
-DLR,Northbound,West Ham,Abbey Road,0.5,,,
-DLR,Northbound,Abbey Road,Stratford High Street,0.53,,,
-DLR,Northbound,Stratford High Street,Stratford,0.35,,,
-DLR,Northbound,Stratford,Stratford International,1.24,,,
-,,,,,,,
-DLR,Southbound,Stratford International,Stratford,1.23,,,
-DLR,Southbound,Stratford,Stratford High Street,0.35,,,
-DLR,Southbound,Stratford High Street,Abbey Road,0.54,,,
-DLR,Southbound,Abbey Road,West Ham,0.5,,,
-DLR,Southbound,West Ham,Star Lane,0.69,,,
-DLR,Southbound,Star Lane,Canning Town,0.69,,,
-DLR,Southbound,Stratford,Pudding Mill Lane,0.89,,,
-DLR,Southbound,Pudding Mill Lane,Bow Church,0.94,,,
-DLR,Southbound,Bow Church,Devons Road,0.54,,,
-DLR,Southbound,Devons Road,Langdon Park,0.72,,,
-DLR,Southbound,Langdon Park,All Saints,0.47,,,
-DLR,Southbound,All Saints,Poplar,0.59,,,
-DLR,Southbound,Poplar,West India Quay,0.22,,,
-DLR,Southbound,West India Quay,Canary Wharf,0.09,,,
-DLR,Southbound,Canary Wharf,Heron Quays,0.15,,,
-DLR,Southbound,Heron Quays,South Quay,0.5,,,
-DLR,Southbound,South Quay,Crossharbour,0.51,,,
-DLR,Southbound,Crossharbour,Mudchute,0.4,,,
-DLR,Southbound,Mudchute,Island Gardens,0.37,,,
-DLR,Southbound,Island Gardens,Cutty Sark,0.68,,,
-DLR,Southbound,Cutty Sark,Greenwich,0.61,,,
-DLR,Southbound,Greenwich,Deptford Bridge,0.66,,,
-DLR,Southbound,Deptford Bridge,Elverson Road,0.72,,,
-DLR,Southbound,Elverson Road,Lewisham,0.32,,,
