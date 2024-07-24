@@ -66,10 +66,18 @@ for i, line in enumerate(lines):
     nx.draw_networkx_edges(g, pos, edgelist=edges, edge_color=colors[line], width=2, label=f'{line} Line')
 
 # Draw the nodes 
-nx.draw_networkx_nodes(g, pos, node_size=50, node_color='black')
+for node in g.nodes():
+    # Find the line of the node
+    for _, row in df.iterrows():
+        if row['Station from (A)'] == node or row['Station to (B)'] == node:
+            line = row['Line']
+            break
+    nx.draw_networkx_nodes(g, pos, nodelist=[node], node_color=colors[line], node_size=50)
+
 # Draw the node labels 
 for node, (x, y) in pos.items():
-    plt.text(x, y, node, fontsize=5, ha='right', va='top', fontweight='bold')
+    plt.text(x, y, node, fontsize=10, ha='right', va='top', fontweight='bold')
+
 # Draw the edge labels    
 edge_labels = {(row['Station from (A)'], row['Station to (B)']): row['Distance (Kms)'] for _, row in df.iterrows()}
 nx.draw_networkx_edge_labels(g, pos, edge_labels=edge_labels, font_size=8, font_color='black')

@@ -61,13 +61,20 @@ def plot_map(G, pos, df, total_length, average_distance, std_distance, best_rout
         'DLR': 'orange',
     }
 
-    for line in lines:
+    # Draw the edges for each line with different colors and labels for each line 
+    for i, line in enumerate(lines):
         line_data = df[df['Line'] == line]
         edges = [(row['Station from (A)'], row['Station to (B)']) for _, row in line_data.iterrows()]
-        nx.draw_networkx_edges(G, pos, edgelist=edges, edge_color=colors[line], width=2, label=f'{line} Line')
+        nx.draw_networkx_edges(g, pos, edgelist=edges, edge_color=colors[line], width=2, label=f'{line} Line')
 
     # Draw the nodes 
-    nx.draw_networkx_nodes(G, pos, node_size=10, node_color='black')
+    for node in g.nodes():
+        # Find the line of the node
+        for _, row in df.iterrows():
+            if row['Station from (A)'] == node or row['Station to (B)'] == node:
+                line = row['Line']
+                break
+        nx.draw_networkx_nodes(g, pos, nodelist=[node], node_color=colors[line], node_size=50)
     # Draw the node labels 
     for node, (x, y) in pos.items():
         plt.text(x, y, node, fontsize=5, ha='left', va='bottom')
