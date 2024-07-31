@@ -2,6 +2,8 @@ import numpy as np
 import pandas as pd
 import networkx as nx
 import matplotlib.pyplot as plt
+import matplotlib.patches as mpatches
+from matplotlib.legend_handler import HandlerPatch
 
 def load_data(file_path):
     data = pd.read_csv(file_path, encoding='latin1')
@@ -27,7 +29,7 @@ def offset_position(pos, index, total, max_offset=0.00005):
     return (pos[0] + offset, pos[1] + offset)
 
 # Create a graph
-g = nx.Graph()
+g = nx.MultiGraph()
 
 # Load data
 station_coordinates = load_coordinates('stations.csv', '1')
@@ -83,7 +85,6 @@ for edge, lines_on_edge in edge_lines.items():
 # Remove duplicate labels
 handles, labels = plt.gca().get_legend_handles_labels()
 by_label = dict(zip(labels, handles))
-plt.legend(by_label.values(), by_label.keys(), loc='lower right', fontsize=10)
 
 # Count the number of lines each station is part of
 station_line_count = {}
@@ -95,21 +96,30 @@ for _, row in df.iterrows():
 
 # Draw the nodes
 for node in g.nodes():
-    # Find the color of the node
-    for _, row in df.iterrows():
-        if row['Station from (A)'] == node or row['Station to (B)'] == node:
-            node_color = colors[row['Line']]
-            break
-    nx.draw_networkx_nodes(g, pos, nodelist=[node], node_color=node_color, node_size=50)
+    # Determine if the node is part of multiple lines
+    if len(station_line_count[node]) > 1:
+        nx.draw_networkx_nodes(g, pos, nodelist=[node], node_color='white', edgecolors='black', node_size=300, linewidths=1.5)
+    else:
+        # Find the color of the node
+        for _, row in df.iterrows():
+            if row['Station from (A)'] == node or row['Station to (B)'] == node:
+                node_color = colors[row['Line']]
+                break
+        nx.draw_networkx_nodes(g, pos, nodelist=[node], node_color=node_color, node_size=50)
 
 # Draw the node labels
-label_pos = {}
+# label_pos = {}
+# for node, (x, y) in pos.items():
+#     label_pos[node] = (x, y + 0.0005)  # Slight vertical offset for labels
+
+# nx.draw_networkx_labels(g, label_pos, font_size=8, font_weight='bold', horizontalalignment='right',
+#                         verticalalignment='bottom', 
+#                         bbox=dict(facecolor='white', edgecolor='none', alpha=0.7, pad=0.5))
 for node, (x, y) in pos.items():
-    label_pos[node] = (x, y + 0.0005)  # Slight vertical offset for labels
-
-nx.draw_networkx_labels(g, label_pos, font_size=8, font_weight='bold',
-                        bbox=dict(facecolor='white', edgecolor='none', alpha=0.7, pad=0.5))
-
+    plt.text(x, y, node, fontsize=5, ha='right', va='top', fontweight='bold', 
+             bbox=dict(facecolor='gray', edgecolor='none', alpha=0.3), 
+             rotation=20)
+    
 # Draw the edge labels
 edge_labels = {}
 for _, row in df.iterrows():
@@ -119,11 +129,29 @@ for _, row in df.iterrows():
     else:
         edge_labels[key] = f"{row['Line']}: {row['Distance (Kms)']}"
 
+
 for (node1, node2), label in edge_labels.items():
     x = (pos[node1][0] + pos[node2][0]) / 2
     y = (pos[node1][1] + pos[node2][1]) / 2
-    plt.text(x, y, label, fontsize=6, ha='left', va='top',
+    plt.text(x, y, label, fontsize=6, ha='center', va='top',
              bbox=dict(facecolor='white', edgecolor='none', alpha=0))
+
+# Create a Patch for the interchangeable stations
+interchange_patch = mpatches.Patch(facecolor='white', edgecolor='black', label='Interchangeable Stations')
+
+# Create a list of legend elements
+legend_elements = [interchange_patch]
+
+# Get the unique lines present in the data
+present_lines = df['Line'].unique()
+
+# Add line colors to the legend only for lines present in the data
+for line in present_lines:
+    if line in colors:
+        legend_elements.append(mpatches.Patch(color=colors[line], label=f'{line} Line'))
+
+# Create the legend
+plt.legend(handles=legend_elements, loc='lower right', fontsize=10)
 
 plt.title('London Tube Map')
 plt.axis('off')  # Turn off the axis
