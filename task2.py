@@ -76,7 +76,8 @@ for node in g.nodes():
 
 # Draw the node labels 
 for node, (x, y) in pos.items():
-    plt.text(x, y, node, fontsize=10, ha='right', va='top', fontweight='bold')
+    plt.text(x, y, node, fontsize=10, ha='left', va='top', fontweight='bold', 
+             bbox=dict(facecolor='white', edgecolor='none', alpha=0.3), rotation=-10)
 
 # Draw the edge labels    
 edge_labels = {(row['Station from (A)'], row['Station to (B)']): row['Distance (Kms)'] for _, row in df.iterrows()}
