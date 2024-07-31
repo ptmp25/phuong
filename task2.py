@@ -3,7 +3,6 @@ import pandas as pd
 import networkx as nx
 import matplotlib.pyplot as plt
 import matplotlib.patches as mpatches
-from matplotlib.legend_handler import HandlerPatch
 
 def load_data(file_path):
     data = pd.read_csv(file_path, encoding='latin1')
@@ -31,9 +30,11 @@ def offset_position(pos, index, total, max_offset=0.00005):
 # Create a graph
 g = nx.MultiGraph()
 
+plt.figure(figsize=(16, 9))
+
 # Load data
 station_coordinates = load_coordinates('stations.csv', '1')
-df = load_data('all - Copy.csv')
+df = load_data('distance.csv')
 
 # Add edges and their distances
 for _, row in df.iterrows():
@@ -62,8 +63,6 @@ colors = {
     'Waterloo & City': 'lightgreen',
     'DLR': 'orange',
 }
-
-plt.figure(figsize=(24, 18))
 
 # Group edges by stations
 edge_lines = {}
@@ -108,16 +107,9 @@ for node in g.nodes():
         nx.draw_networkx_nodes(g, pos, nodelist=[node], node_color=node_color, node_size=50)
 
 # Draw the node labels
-# label_pos = {}
-# for node, (x, y) in pos.items():
-#     label_pos[node] = (x, y + 0.0005)  # Slight vertical offset for labels
-
-# nx.draw_networkx_labels(g, label_pos, font_size=8, font_weight='bold', horizontalalignment='right',
-#                         verticalalignment='bottom', 
-#                         bbox=dict(facecolor='white', edgecolor='none', alpha=0.7, pad=0.5))
 for node, (x, y) in pos.items():
     plt.text(x, y, node, fontsize=5, ha='right', va='top', fontweight='bold', 
-             bbox=dict(facecolor='gray', edgecolor='none', alpha=0.3), 
+             bbox=dict(facecolor='yellow', edgecolor='none', alpha=0.3), 
              rotation=20)
     
 # Draw the edge labels
@@ -128,7 +120,6 @@ for _, row in df.iterrows():
         edge_labels[key] += f"\n{row['Line']}: {row['Distance (Kms)']}"
     else:
         edge_labels[key] = f"{row['Line']}: {row['Distance (Kms)']}"
-
 
 for (node1, node2), label in edge_labels.items():
     x = (pos[node1][0] + pos[node2][0]) / 2
@@ -152,6 +143,10 @@ for line in present_lines:
 
 # Create the legend
 plt.legend(handles=legend_elements, loc='lower right', fontsize=10)
+
+# Draw a rectangle around the plot area
+rect = mpatches.Rectangle((0, 0), 1, 1, transform=plt.gca().transAxes, color='black', fill=False, linewidth=2)
+plt.gca().add_patch(rect)
 
 plt.title('London Tube Map')
 plt.axis('off')  # Turn off the axis
