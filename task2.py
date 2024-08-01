@@ -2,7 +2,7 @@ import numpy as np
 import pandas as pd
 import networkx as nx
 import matplotlib.pyplot as plt
-import matplotlib.patches as mpatches
+from matplotlib.lines import Line2D
 
 def load_data(file_path):
     data = pd.read_csv(file_path, encoding='latin1')
@@ -128,7 +128,7 @@ for (node1, node2), label in edge_labels.items():
              bbox=dict(facecolor='white', edgecolor='none', alpha=0))
 
 # Create a Patch for the interchangeable stations
-interchange_patch = mpatches.Patch(facecolor='white', edgecolor='black', label='Interchangeable Stations')
+interchange_patch = Line2D([0], [0], marker='o', color='black', label='Interchange', markerfacecolor='white', markersize=15, linestyle='None')
 
 # Create a list of legend elements
 legend_elements = [interchange_patch]
@@ -139,14 +139,14 @@ present_lines = df['Line'].unique()
 # Add line colors to the legend only for lines present in the data
 for line in present_lines:
     if line in colors:
-        legend_elements.append(mpatches.Patch(color=colors[line], label=f'{line} Line'))
+        legend_elements.append(Line2D([0], [0], marker='o', color=colors[line], lw=2, label=f'{line} Line'))
 
 # Create the legend
 plt.legend(handles=legend_elements, loc='lower right', fontsize=10)
 
 # Draw a rectangle around the plot area
-rect = mpatches.Rectangle((0, 0), 1, 1, transform=plt.gca().transAxes, color='black', fill=False, linewidth=2)
-plt.gca().add_patch(rect)
+# rect = mpatches.Rectangle((0, 0), 1, 1, transform=plt.gca().transAxes, color='black', fill=False, linewidth=2)
+# plt.gca().add_patch(rect)
 
 plt.title('London Tube Map')
 plt.axis('off')  # Turn off the axis
