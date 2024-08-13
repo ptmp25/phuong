@@ -97,7 +97,7 @@ for _, row in df.iterrows():
 for node in g.nodes():
     # Determine if the node is part of multiple lines
     if len(station_line_count[node]) > 1:
-        nx.draw_networkx_nodes(g, pos, nodelist=[node], node_color='white', edgecolors='black', node_size=300, linewidths=1.5)
+        nx.draw_networkx_nodes(g, pos, nodelist=[node], node_color='white', edgecolors='black', node_size=50, linewidths=1.5)
     else:
         # Find the color of the node
         for _, row in df.iterrows():
@@ -109,7 +109,7 @@ for node in g.nodes():
 # Draw the node labels
 for node, (x, y) in pos.items():
     plt.text(x, y, node, fontsize=5, ha='right', va='top', fontweight='bold', 
-             bbox=dict(facecolor='yellow', edgecolor='none', alpha=0.3), 
+             bbox=dict(facecolor='w', edgecolor='none', alpha=0.3), 
              rotation=20)
     
 # Draw the edge labels
@@ -128,7 +128,7 @@ for (node1, node2), label in edge_labels.items():
              bbox=dict(facecolor='white', edgecolor='none', alpha=0))
 
 # Create a Patch for the interchangeable stations
-interchange_patch = Line2D([0], [0], marker='o', color='black', label='Interchange', markerfacecolor='white', markersize=15, linestyle='None')
+interchange_patch = Line2D([], [], marker='o', color='black', label='Interchange', markerfacecolor='white', markersize=5, linestyle='None')
 
 # Create a list of legend elements
 legend_elements = [interchange_patch]
@@ -143,10 +143,6 @@ for line in present_lines:
 
 # Create the legend
 plt.legend(handles=legend_elements, loc='lower right', fontsize=10)
-
-# Draw a rectangle around the plot area
-# rect = mpatches.Rectangle((0, 0), 1, 1, transform=plt.gca().transAxes, color='black', fill=False, linewidth=2)
-# plt.gca().add_patch(rect)
 
 plt.title('London Tube Map')
 plt.axis('off')  # Turn off the axis

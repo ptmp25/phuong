@@ -4,6 +4,7 @@ import networkx as nx
 import matplotlib.pyplot as plt
 import matplotlib.patches as mpatches
 import tkinter as tk
+from matplotlib.lines import Line2D
 from tkinter import ttk
 
 def load_data(file_path):
@@ -104,7 +105,7 @@ def plot_map(G, pos, df, total_length, average_distance, std_distance, best_rout
     # Draw the node labels
     for node, (x, y) in pos.items():
         plt.text(x, y, node, fontsize=5, ha='right', va='top', fontweight='bold', 
-                bbox=dict(facecolor='yellow', edgecolor='none', alpha=0.3), 
+                bbox=dict(facecolor='w', edgecolor='none', alpha=0.3), 
                 rotation=20)
         
     # Draw the edge labels
@@ -123,7 +124,7 @@ def plot_map(G, pos, df, total_length, average_distance, std_distance, best_rout
                 bbox=dict(facecolor='white', edgecolor='none', alpha=0))
 
     # Create a Patch for the interchangeable stations
-    interchange_patch = mpatches.Patch(facecolor='white', edgecolor='black', label='Interchangeable Stations')
+    interchange_patch = Line2D([], [], marker='o', color='black', label='Interchange', markerfacecolor='white', markersize=5, linestyle='None')
 
     # Create a list of legend elements
     legend_elements = [interchange_patch]
@@ -134,10 +135,9 @@ def plot_map(G, pos, df, total_length, average_distance, std_distance, best_rout
     # Add line colors to the legend only for lines present in the data
     for line in present_lines:
         if line in colors:
-            legend_elements.append(mpatches.Patch(color=colors[line], label=f'{line} Line'))
+            legend_elements.append(Line2D([0], [0], marker='o', color=colors[line], lw=2, label=f'{line} Line'))
 
-    legend_elements.append(mpatches.Patch(color='gold', label='Best Route'))
-    
+    # Create the legend
     plt.legend(handles=legend_elements, loc='lower right', fontsize=10)
     rect = mpatches.Rectangle((0, 0), 1, 1, transform=plt.gca().transAxes, color='black', fill=False, linewidth=2)
     plt.gca().add_patch(rect)
