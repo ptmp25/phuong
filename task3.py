@@ -93,7 +93,7 @@ def plot_map(G, pos, df, total_length, average_distance, std_distance, best_rout
     for node in g.nodes():
         # Determine if the node is part of multiple lines
         if len(station_line_count[node]) > 1:
-            nx.draw_networkx_nodes(g, pos, nodelist=[node], node_color='white', edgecolors='black', node_size=300, linewidths=1.5)
+            nx.draw_networkx_nodes(g, pos, nodelist=[node], node_color='white', edgecolors='black', node_size=50, linewidths=1.5)
         else:
             # Find the color of the node
             for _, row in df.iterrows():
