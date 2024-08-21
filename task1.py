@@ -5,11 +5,11 @@ import matplotlib.pyplot as plt
 
 # distances in kilometers 
 distances = {
-    ('Hyde Park Corner', 'Green Park'): 1.0,
-    ('Green Park', 'Piccadilly Circus'): 0.5,
-    ('Piccadilly Circus', 'Leicester Square'): 0.1,
-    ('Leicester Square', 'Covent Garden'): 0.6,
-    ('Covent Garden', 'Holborn'): 1.2
+    ('Hyde Park Corner', 'Green Park'): 1.06,
+    ('Green Park', 'Piccadilly Circus'): 0.56,
+    ('Piccadilly Circus', 'Leicester Square'): 0.49,
+    ('Leicester Square', 'Covent Garden'): 0.25,
+    ('Covent Garden', 'Holborn'): 0.59
 }
 
 # Create a graph
@@ -22,11 +22,11 @@ for (station1, station2), distance in distances.items():
 # Get positions for the nodes (you can adjust these to improve the visualization)
 pos = {
     'Hyde Park Corner': (-1, -1),
-    'Green Park': (0.6, 1),
-    'Piccadilly Circus': (2.6, 1),
-    'Leicester Square': (3, 1),
-    'Covent Garden': (4, 2),
-    'Holborn': (5.5, 3.5)
+    'Green Park': (1, 1),
+    'Piccadilly Circus': (2.5, 1),
+    'Leicester Square': (3.8, 1),
+    'Covent Garden': (4, 1.8),
+    'Holborn': (4.3, 3)
 }
 
 # Add nodes to the graph
